@@ -8,18 +8,10 @@ import {
     ListItemPrefix,
     ListItemSuffix,
     Chip,
-    Accordion,
-    AccordionHeader,
-    AccordionBody,
 } from "@material-tailwind/react";
 
 import {
-    PresentationChartBarIcon,
-    ShoppingBagIcon,
-    UserCircleIcon,
-    Cog6ToothIcon,
-    InboxIcon,
-    PowerIcon,
+    QuestionMarkCircleIcon,
 } from "@heroicons/react/24/solid";
 
 import { cssIcon, htmlIcon, jsIcon, reactIcon } from "../assets/data";
@@ -83,9 +75,9 @@ export function Sidebar() {
             <List>
                 <ListItem>
                     <ListItemPrefix>
-                        <PowerIcon className="h-5 w-5 text-red-500" />
+                        <QuestionMarkCircleIcon className="h-5 w-5" />
                     </ListItemPrefix>
-                    Log Out
+                    Add Question
                 </ListItem>
             </List>
 
